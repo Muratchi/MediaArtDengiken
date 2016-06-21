@@ -30,31 +30,31 @@
 
 ### 基本的な描画
 
-背景色の変更
+**背景色の変更**
 
 ``` c++
 ofBackground(red, green, blue);
 ```
 
-描画する色の変更
+**描画する色の変更**
 
 ```
 ofSetColor(red, green, blue);
 ```
 
-直線
+**直線**
 
 ``` c++
 ofDrawLine(始点のx座標, 始点のy座標, 終点のx座標, 終点のy座標);
 ```
 
-四角形
+**四角形**
 
 ``` c++
 ofDrawRect(左上のx座標, 左上のy座標, 横幅, 縦幅)
 ```
 
-丸
+**円**
 
 ```
 ofDrawCircle(中心のx座標, 中心のy座標, 半径の大きさ);
