@@ -7,7 +7,7 @@
 
 プロジェクトを作成するときはプロジェクトジェネレータを使います。
 プロジェクトジェネレータはopenFrameworksの中のprojectGenerator - [osの名前]の所にあります。
-作成されたプロジェクトはopenFrameworksの中にある apps/myAppsへ保存されます。
+作成されたプロジェクトはopenFrameworksの中にあるapps/myAppsへ保存されます。
 ![projectGenerator](https://github.com/Muratchi/MediaArtDengiken/blob/master/projectGenerator.png)
 
 
