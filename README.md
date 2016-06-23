@@ -69,6 +69,20 @@ ofDrawCircle(中心のx座標, 中心のy座標, 半径の大きさ);
 
 引数のx,yはそれぞれの場合のx座標,y座標
 
+### 音関連
+
+音楽を使う時にofSoundPlayerクラスを使用します
+
+``` c++
+ofSoundPlayer soundPlayer;
+
+soundPlayer.loadSound("sound.mp3"); //sound.mp3ファイルを読み込む
+soundPlayer.setVolume(); //音量を設定　引数には0 ~ 1を入れる
+soundPlayer.setLoop(); //ループさせるかどうかを設定　引数は真偽値
+soundPlayer.setPause; // 一時停止の設定　引数は真偽値
+soundPlayer.stop(); //音楽の停止
+ ```
+
 
  
 
