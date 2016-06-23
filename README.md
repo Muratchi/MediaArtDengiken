@@ -60,8 +60,14 @@ ofDrawRect(左上のx座標, 左上のy座標, 横幅, 縦幅);
 ofDrawCircle(中心のx座標, 中心のy座標, 半径の大きさ);
 ```
 
+### マウス関連
 
+1. mouseMoved    : マウスを動かしたとき
+2. mouseDragged  : ドラッグした時
+3. mousePressed  : クリックした時
+4. mouseReleased : 話した時
 
+引数のx,yはそれぞれの場合のx座標,y座標
 
 
  
