@@ -83,6 +83,14 @@ soundPlayer.setPause; // 一時停止の設定　引数は真偽値
 soundPlayer.stop(); //音楽の停止
  ```
 
+マイクからの入力を使う際はaudioIn()を使います
+
+```
+void ofApp::audioIn(float *input, int bufferSize, int nChannels
+
+![data](https://github.com/Muratchi/MediaArtDengiken/blob/master/data.png)
+```
+### 
 
  
 
