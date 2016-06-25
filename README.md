@@ -39,7 +39,9 @@ ofBackground(red, green, blue);
 **描画する色の変更**
 
 ```
+ofEnableAlphaBlending(); // setup内にかく、透明度を使えるようにする。
 ofSetColor(red, green, blue);
+ofSetColor(red, green, blue, alpha);
 ```
 
 **直線**
@@ -81,19 +83,10 @@ soundPlayer.setVolume(); //音量を設定　引数には0 ~ 1を入れる
 soundPlayer.setLoop(); //ループさせるかどうかを設定　引数は真偽値
 soundPlayer.setPause; // 一時停止の設定　引数は真偽値
 soundPlayer.stop(); //音楽の停止
+variable = ofSoundGetSpectrum(1);//得られる値が小さいので、1000ぐらいの大きな値をかけて描画に使いましょう
  ```
-
-マイクからの入力を使う際はaudioIn()を使います
-
-```
-void ofApp::audioIn(float *input, int bufferSize, int nChannels
-```
-![data](https://github.com/Muratchi/MediaArtDengiken/blob/master/data.png)
+ 
+ ![data](https://github.com/Muratchi/MediaArtDengiken/blob/master/data.png)
 ### 
 
  
-
-
-
-
-
