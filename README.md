@@ -87,9 +87,8 @@ soundPlayer.stop(); //音楽の停止
 
 ```
 void ofApp::audioIn(float *input, int bufferSize, int nChannels
-
-![data](https://github.com/Muratchi/MediaArtDengiken/blob/master/data.png)
 ```
+![data](https://github.com/Muratchi/MediaArtDengiken/blob/master/data.png)
 ### 
 
  
